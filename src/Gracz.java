@@ -6,7 +6,6 @@ public final class Gracz extends Postacie{
     public int getMoney(){
         return money;
     }
-
     public void addMoney(int hajs) {
         money += hajs;
     }

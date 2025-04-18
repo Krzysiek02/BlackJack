@@ -6,7 +6,6 @@ public abstract class Postacie {
     public void clearTaliaKartGracza(){
         taliaKartGracza.clear();
     }
-
     public Karta ciagnijKarte(Karta karta){
         taliaKartGracza.add(karta);
         Karta ciagnietaKarta = taliaKartGracza.get(0);
