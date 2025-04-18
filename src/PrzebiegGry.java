@@ -334,7 +334,6 @@ public final class PrzebiegGry {
             ruchKrupiera();
         }
     }
-
     public void ruchKrupiera() {
         ImageIcon przeskalowanaKarta = ObslugaZdjec.dodawanieZdjecia(kartaDoOdkrycia,talia);
         JLabel kartaLabel = new JLabel(przeskalowanaKarta);
