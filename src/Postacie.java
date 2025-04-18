@@ -3,9 +3,12 @@ import java.util.List;
 
 public abstract class Postacie {
     List<Karta> taliaKartGracza = new ArrayList<>();
+
+
     public void clearTaliaKartGracza(){
         taliaKartGracza.clear();
     }
+
     public Karta ciagnijKarte(Karta karta){
         taliaKartGracza.add(karta);
         Karta ciagnietaKarta = taliaKartGracza.get(0);
@@ -43,4 +46,5 @@ public abstract class Postacie {
 
         return taliaValue;
     }
+
 }
